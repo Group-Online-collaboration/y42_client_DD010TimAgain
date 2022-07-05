@@ -47,5 +47,24 @@
     }
   },
   "created_at": "2022-07-05T10:50:49.682760+00:00",
-  "_signature": "cbJMwOxsT3L6u93m+DzB8+bX+rU0kztBYgj9FbFGi5XRggfeIARhbtWvenTUdjDNFLbNi/M+MszFtIrrJJAlDw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-05T10:51:20.805198+00:00",
+    "external_state": {
+      "bookmarks": {
+        "performance_report_device": {
+          "https://www.tandblomst.dk/": {
+            "image": "2022-07-01T00:00:00.000000Z",
+            "web": "2022-07-02T00:00:00.000000Z"
+          }
+        }
+      },
+      "schema_hash": "8a079667955e1271209f53271364ae92"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a566cb-0101-50c6-0001-2c920037700e",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-search-console/fd8dc41d-d902-4cea-9e31-0d3e4a278e98",
+    "partial": false
+  },
+  "_signature": "d6aMt341RWmQE/+NM0eMFyItlDeANzigDoILXExuYLPPEja7mQCqu2ywCplvVFnrEZTdQQj4pkd/C15nCMh4AQ=="
 }
