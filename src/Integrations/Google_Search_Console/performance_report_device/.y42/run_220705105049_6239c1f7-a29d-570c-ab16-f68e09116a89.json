@@ -1,0 +1,119 @@
+{
+  "request_id": "220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89",
+  "status": "ready",
+  "request": {
+    "source_credentials": "6936c346-9c37-4115-bb0e-b954dbd4c0f1",
+    "target_credentials": "9cbc54a0-ed65-4d79-9e1a-b675062d78c6",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "https://www.tandblomst.dk/"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/table",
+      "columns": [
+        "site_url",
+        "search_type",
+        "date",
+        "device",
+        "clicks",
+        "impressions",
+        "ctr",
+        "position"
+      ],
+      "import": "performance_report_device"
+    },
+    "created_at": "2022-07-05T10:50:49.682760+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Search_Console/performance_report_device/",
+        "id": "5:8433a480-5207-42c1-885a-8f28cdbf504d",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_DD010TimAgain",
+        "commit_sha": "e1a813f1aa248a796546b5a6fe27a59cea3ad16a"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-05T10:50:49.682760+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-05T10:51:20.805198+00:00",
+    "external_state": {
+      "bookmarks": {
+        "performance_report_device": {
+          "https://www.tandblomst.dk/": {
+            "image": "2022-07-01T00:00:00.000000Z",
+            "web": "2022-07-02T00:00:00.000000Z"
+          }
+        }
+      },
+      "schema_hash": "8a079667955e1271209f53271364ae92"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a566cb-0101-50c6-0001-2c920037700e",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-search-console/fd8dc41d-d902-4cea-9e31-0d3e4a278e98",
+    "partial": false,
+    "import_finished_at": "2022-07-05T10:51:39.539803+00:00",
+    "row_count": 585,
+    "current_import_row_count": 585,
+    "size_in_bytes": 12800,
+    "columns": [
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "site_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "position",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "search_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      }
+    ],
+    "table_name": "220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89"
+  },
+  "finished_at": "2022-07-05T10:51:39.539968+00:00",
+  "_signature": "5JjFtqu04EY2M/us2cbf2foWI3YQIps2/fxQ9HqfxYD3gcYoZ5Q3MCkaRWaD2SnwWimU4QZ4ibKgBoW3gxLBBw=="
+}
