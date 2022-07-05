@@ -1,0 +1,394 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "6395d307-b540-4526-9152-d94c11e913f6",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "6395d307-b540-4526-9152-d94c11e913f6",
+        "title": "Performance report device",
+        "transformationType": "INPUT",
+        "datasourceName": "Google Search Console",
+        "transformObject": {
+          "source": "src/Integrations/Google_Search_Console",
+          "table": "src/Integrations/Google_Search_Console/performance_report_device",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-990.099173553719 -524.4062922627804"
+    },
+    {
+      "key": "7d1aab0a-df00-4db8-aae0-e07bb4941246",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "7d1aab0a-df00-4db8-aae0-e07bb4941246",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "client_id",
+            "originalString": "\"<client_id>\"",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "Literal",
+                    "raw": "\"<client_id>\"",
+                    "value": "<client_id>",
+                    "range": [
+                      0,
+                      13
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 13
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    13
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 13
+                    }
+                  },
+                  "directive": "<client_id>"
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                13
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13
+                }
+              },
+              "tokens": [
+                {
+                  "type": "String",
+                  "value": "\"<client_id>\"",
+                  "range": [
+                    0,
+                    13
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 13
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          },
+          {
+            "target": "loaded_at",
+            "originalString": "CURRENT_DATETIME()",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CURRENT_DATETIME",
+                      "range": [
+                        0,
+                        16
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 16
+                        }
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "range": [
+                      0,
+                      18
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                18
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 18
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CURRENT_DATETIME",
+                  "range": [
+                    0,
+                    16
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-600.2479338842975 -504.4528301886793"
+    },
+    {
+      "key": "14b3304e-a792-4ed3-9145-ddf980b4e3f3",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "14b3304e-a792-4ed3-9145-ddf980b4e3f3",
+        "title": "google_search_console",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "google_search_console",
+          "fields": [
+            {
+              "target": "site_url",
+              "source": "site_url",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "search_type",
+              "source": "search_type",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "device",
+              "source": "device",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clicks",
+              "source": "clicks",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impressions",
+              "source": "impressions",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ctr",
+              "source": "ctr",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "position",
+              "source": "position",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "client_id",
+              "source": "client_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": true
+            },
+            {
+              "target": "loaded_at",
+              "source": "loaded_at",
+              "type": "DATETIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-160.7190082644628 -502.81132075471703"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "6395d307-b540-4526-9152-d94c11e913f6",
+      "to": "7d1aab0a-df00-4db8-aae0-e07bb4941246"
+    },
+    {
+      "from": "7d1aab0a-df00-4db8-aae0-e07bb4941246",
+      "to": "14b3304e-a792-4ed3-9145-ddf980b4e3f3"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}
