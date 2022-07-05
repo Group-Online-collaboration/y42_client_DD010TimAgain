@@ -1,6 +1,6 @@
 {
   "request_id": "220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "6936c346-9c37-4115-bb0e-b954dbd4c0f1",
     "target_credentials": "9cbc54a0-ed65-4d79-9e1a-b675062d78c6",
@@ -64,7 +64,56 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a566cb-0101-50c6-0001-2c920037700e",
     "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-search-console/fd8dc41d-d902-4cea-9e31-0d3e4a278e98",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-05T10:51:39.539803+00:00",
+    "row_count": 585,
+    "current_import_row_count": 585,
+    "size_in_bytes": 12800,
+    "columns": [
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "site_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "position",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "search_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      }
+    ],
+    "table_name": "220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220705105049_6239c1f7-a29d-570c-ab16-f68e09116a89"
   },
-  "_signature": "d6aMt341RWmQE/+NM0eMFyItlDeANzigDoILXExuYLPPEja7mQCqu2ywCplvVFnrEZTdQQj4pkd/C15nCMh4AQ=="
+  "finished_at": "2022-07-05T10:51:39.539968+00:00",
+  "_signature": "5JjFtqu04EY2M/us2cbf2foWI3YQIps2/fxQ9HqfxYD3gcYoZ5Q3MCkaRWaD2SnwWimU4QZ4ibKgBoW3gxLBBw=="
 }
